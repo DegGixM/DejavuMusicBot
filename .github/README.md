@@ -55,7 +55,8 @@ Dejavu Music Bot-u gücləndirən texnologiyalar haqqında ətraflı məlumat ü
 
 ## 🚀 Heroku Yerləşdirmə
 
-<h4> Dejavu-ni Heroku-da yerləşdirmək üçün aşağıdakı düyməyə klikləyin! </h4>    
+<h4> Dejavu-ni Heroku-da yerləşdirmək üçün aşağıdakı düyməyə klikləyin! </h4>  
+
 <a href="https://heroku.com/deploy/"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=https://github.com/DegGixM/DejavuMusicBot=heroku" width="200""/></a>
 
 > Heroku Deployment haqqında ətraflı izahat istəyirsiniz? [Click Here](https://notreallyshikhar.gitbook.io/yukkimusicbot/deployment/heroku)
