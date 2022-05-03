@@ -1,76 +1,76 @@
-<img src="https://te.legra.ph/file/be559ace3fe2b387dec9a.jpg" align="right" width="200" height="200"/>
+<img src="https://telegra.ph/file/c0e014ff34f34d1056627.png" align="right" width="200" height="200"/>
 
-# Dejavu Music Bot <img src="https://img.shields.io/github/v/release/DegGixM/DejavuMusicBot?color=black&logo=github&logoColor=black&style=social" alt="AZAD ET">
+# Yukki Music Bot <img src="https://img.shields.io/github/v/release/TeamYukki/YukkiMusicBot?color=black&logo=github&logoColor=black&style=social" alt="RELEASE">
 
-[Dejavu Music Bot](https://github.com/DegGixM/DejavuMusicBot) Pyrogram və Py-Tgcalls-dan istifadə edərək Python dilində yazılmış Güclü Telegram Musiqi+Video Botdur, onun vasitəsilə müxtəlif mənbələr vasitəsilə qrup zənglərinizdə mahnıları, videoları və hətta canlı yayımları yayımlaya bilərsiniz.
+[Yukki Music Bot](https://github.com/TeamYukki/YukkiMusicBot) is a Powerful Telegram Music+Video Bot written in Python using Pyrogram and Py-Tgcalls by which you can stream songs, video and even live streams in your group calls via various sources.
 
-* Youtube, Soundcloud, Apple Music, Spotify, Resso və Telegram Audios & Videos dəstəyi.
-* Sıfırdan yazılmışdır, onu sabit və daha az qəza edir.
-* Cəlbedici miniatürlər, şriftlər və şəkillər, təcrübəni daha istifadəçi dostu və interaktiv edir.
-* Döngə, Axtar, Qarışıq, Xüsusi Skip, Pleylistlər və s. dəstəyi
-* Qlobal, İstifadəçilər, Söhbətlər Top 10 ifa olunan trek statistikası
-* Çoxdilli dəstək
-
-
-# 🔗 Ümumi Baxış
-
-Yukki Music Bot-un yüksək səviyyəli qısa icmalı:
-
-Bu layihə [Pyrogram](https://github.com/pyrogram) və [Py-Tgcalls](https://github.com/pytgcalls/pytgcalls) əsasındadır. Pyrogram müasir, zərif və asinxron MTProto API çərçivəsidir.
-
-* Verilənlər bazası üçün Yukki məlumat və açarları saxlamaq üçün MongoDB-dən istifadə edir. [MongoDB](https://www.mongodb.com/) sizə lazım olan sorğu və indeksləşdirmə ilə istədiyiniz genişlənmə və çevikliyə malik sənəd verilənlər bazasıdır.
-* Layihə bir çox platforma təfərrüatlarını əldə etmək üçün bs4 veb sökülməsindən istifadə edir. [Gözəl Şorba](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) HTML və XML fayllarından məlumatları çıxarmaq üçün Python kitabxanasıdır.
-* Layihə miniatürlər üçün əsas şrift kimi [`Raleway`](../assets/font2.ttf) şriftindən istifadə edir.
-* Layihələr [assets](../assets/) kataloqunda əldə edə biləcəyiniz cəlbedici şəkillər və nişanlardan istifadə edir.
-
-Dejavu Music Bot-u gücləndirən texnologiyalar haqqında ətraflı məlumat üçün [Sənədlər]-ə baxın (https://notreallyshikhar.gitbook.io/yukkimusicbot/).
+* Youtube, Soundcloud, Apple Music, Spotify, Resso and Telegram Audios & Videos support.
+* Written from scratch, making it stable and less crashes.
+* Attractive thumbnails, fonts and images,  making experience more user-friendly and interactive.
+* Loop, Seek, Shuffle, Specific Skip, Playlists etc support
+* Global, Users, Chats Top 10 played tracks stats
+* Multi-Language support
 
 
-# ⚡️ Başlanır
+# 🔗 An Overview
 
-### Dejavu Music Bot-u yerləşdirməzdən əvvəl [bütün mövcud konfiqurasiya variantlarına](../config/README.md) nəzər salın, həmçinin [bütün mövcud əmrləri](../strings/command.yml) yoxlayın. layihə.
+Here's a brief high-level overview of the Yukki Music Bot:
 
-> Əgər siz Yukki Music Bot ilə işləməyə başlamaq istəyirsinizsə, repo yükləyə və ya idxal edə bilərsiniz.
-> Rəsmi [sənəd saytı](https://te.legra.ph/file/be559ace3fe2b387dec9a.jpg) çoxlu məlumat ehtiva edir. Başlamaq üçün ən yaxşı yer yerləşdirmə bölməsindəndir.
-> Bizimlə danışmaq istəyirsinizsə, [Telegram Qrupumuzda](https://t.me/DejavuGurup) bizə qoşulun
+This project is based on [Pyrogram](https://github.com/pyrogram) and [Py-Tgcalls](https://github.com/pytgcalls/pytgcalls) . Pyrogram is a modern, elegant and asynchronous MTProto API framework.
+
+* For database, Yukki uses the MongoDB to store data and keys. [MongoDB](https://www.mongodb.com/) is a document database with the scalability and flexibility that you want with the querying and indexing that you need.
+* Project uses the bs4 web scrapping for getting many platform details. [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) is a Python library for pulling data out of HTML and XML files.
+* The project uses the font [`Raleway`](../assets/font2.ttf) as its main font for the thumbnails.
+* The projects uses attractive images and icons which you can get in [assets](../assets/) directory.
+
+For more information on the technologies that power the Yukki Music Bot, check out the [Docs](https://notreallyshikhar.gitbook.io/yukkimusicbot/).
 
 
-## 🖇 İlkin şərtlər
 
-> Layihənizdə ziddiyyətlərin qarşısını almaq üçün sizdə olmalıdır/quraşdırılmalıdır
+# ⚡️ Getting Started
+
+### Before deploying Yukki Music Bot , please have a look towards [all available config vars](../config/README.md) , also please check [all available commands](../strings/command.yml) of the project.
+
+> If you want to start working with Yukki Music Bot you can either fork or import repo .
+> The official [documentation site](https://notreallyshikhar.gitbook.io/yukkimusicbot/) contains a lot of information. The best place to start is from the deployment section.
+> If you'd like to talk to us, join us on our [Telegram Group](https://t.me/YukkiSupport)
+
+
+## 🖇 Prerequisites
+
+> In order to avoid conflicts in your project, you must have/installed
 
 - [Python3.9](https://www.python.org/downloads/release/python-390/)
-- [Telegram API Açarı](https://docs.pyrogram.org/intro/setup#api-keys)
+- [Telegram API Key](https://docs.pyrogram.org/intro/setup#api-keys)
 - [Telegram Bot Token](https://t.me/botfather)
 - [MongoDB URI](https://notreallyshikhar.gitbook.io/yukkimusicbot/deployment/mongodb)
 - [Pyrogram String Session](https://notreallyshikhar.gitbook.io/yukkimusicbot/deployment/string-session)
 
 
-## 🖇 Piroqqramma sim seansının yaradılması
+## 🖇 Generating Pyrogram String Session
 
-- [Replit](https://replit.com/@NotReallyShikhar/Yukki-Music-String-Gen) vasitəsilə Piroqram Simli Sessiya yaradın
+- Generate a Pyrogram String Session via [Replit](https://replit.com/@NotReallyShikhar/Yukki-Music-String-Gen)
 
-- [Telegram String Generation Bot](https://t.me/YukkiStringBot) vasitəsilə Piroqram Simli Sessiya yaradın
+- Generate a Pyrogram String Session via [Telegram String Generation Bot](https://t.me/YukkiStringBot)
 
 
-## 🚀 Heroku Yerləşdirmə
+## 🚀 Heroku Deployment
 
-<h4> Dejavu-ni Heroku-da yerləşdirmək üçün aşağıdakı düyməyə klikləyin! </h4>  
-
+<h4>Click the button below to deploy Yukki on Heroku!</h4>    
 <a href="https://heroku.com/deploy/"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=https://github.com/DegGixM/DejavuMusicBot=heroku" width="200""/></a>
 
-> Heroku Deployment haqqında ətraflı izahat istəyirsiniz? [Click Here](https://notreallyshikhar.gitbook.io/yukkimusicbot/deployment/heroku)
+> Want detailed explanation of Heroku Deployment? [Click Here](https://notreallyshikhar.gitbook.io/yukkimusicbot/deployment/heroku)
 
-## 🚀 Okteto Yerləşdirmə
+## 🚀 Okteto Deployment
 
-<h4>Yukki-ni Okteto-da yerləşdirmək üçün aşağıdakı düyməyə klikləyin!</h4>
+<h4>Click the button below to deploy Yukki on Okteto!</h4>
 <a href="https://cloud.okteto.com/deploy?repository=https://github.com/TeamYukki/YukkiMusicBot"><img src="https://img.shields.io/badge/Deploy%20To%20Okteto-informational?style=for-the-badge&logo=Okteto" width="200""/></a>
 
 
 
-## 🖇 VPS Yerləşdirmə
+## 🖇 VPS Deployment
 
-> VPS Yerləşdirməsi üzrə Ətraflı İzahat üçün [Sənədləri](https://notreallyshikhar.gitbook.io/yukkimusicbot/deployment/local-hosting-or-vps) yoxlayın.
+> Checkout [Docs](https://notreallyshikhar.gitbook.io/yukkimusicbot/deployment/local-hosting-or-vps) for Detailed Explanation on VPS Deploy
 
 
 ```console
@@ -78,73 +78,74 @@ shikhar@MacBook~ $ git clone https://github.com/TeamYukki/YukkiMusicBot
 shikhar@MacBook~ $ cd YukkiMusicBot
 shikhar@MacBook~ $ sudo bash setup
 ```
-> Quraşdırma hər bir tələbi, nodejs və pip paketlərini avtomatik quraşdıracaq. Tələbləri uğurla quraşdırdıqdan sonra quraşdırma sizdən parametrlərinizi daxil etməyi xahiş edəcək.
-> Variantlarınızı düzgün daxil edin.
+> Setup will install each and every requirement, nodejs and pip packages automatically. After successfull installation of requirements , setup will ask you to input your vars.
+> Please input your vars correctly.
 
 ```console
 shikhar@MacBook~ $ bash start
 ```
 
-> VPS Metodunu Almırsınız? [Təlimçiliyə baxın](https://t.me/DejavuSupport)
+> Not Getting VPS Method? [Watch Tutorial](https://t.me/TheYukki/2275)
 
 
 <img src="https://telegra.ph/file/6b75b57da50ef1183fcdc.jpg" align="center">
 
-## 🏷 Dəstək
 
-Aşağıdakı yerlərdən birində baxıcı ilə əlaqə saxlayın:
+## 🏷 Support
 
-- [GitHub Problemləri](https://github.com/TeamYukki/yukkimusicbot/issues/new?assignees=&labels=question&template=SUPPORT_QUESTION.md&title=support%3A+)
-- [bu GitHub profilində] sadalanan əlaqə seçimləri(https://github.com/TeamYukki)
-- [Telegram Dəstəyi](https://t.me/DejavuSupport)
+Reach out to the maintainer at one of the following places:
 
-## 🎗 Layihəyə yardım
+- [GitHub Issues](https://github.com/TeamYukki/yukkimusicbot/issues/new?assignees=&labels=question&template=SUPPORT_QUESTION.md&title=support%3A+)
+- Contact options listed on [this GitHub profile](https://github.com/TeamYukki)
+- [Telegram Support](https://t.me/YukkiSupport)
 
-**təşəkkür edirəm** demək və/və ya YukkiMusicBot-un aktiv inkişafına dəstək vermək istəyirsinizsə:
+## 🎗 Project assistance
 
-- Layihəyə [GitHub Star](https://github.com/DegGixM/DejavuMusicBot) əlavə edin.
-- Repo çəngəl :)
-- [Dev.to](https://dev.to/), [Medium](https://medium.com/) və ya şəxsi bloqunuzda layihə haqqında maraqlı məqalələr yazın.
+If you want to say **thank you** or/and support active development of YukkiMusicBot:
 
-P.S: Siz də mənə qəhvə ala bilərsiniz :)
-<p><a href="https://www.buymeacoffee.com/notreallysy" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png " alt="Mənə Qəhvə Al" style="height: 35px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box- kölgə: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !vacib;" >></a></p>
+- Add a [GitHub Star](https://github.com/TeamYukki/YukkiMusicBot) to the project.
+- Fork the Repo :)
+- Write interesting articles about the project on [Dev.to](https://dev.to/), [Medium](https://medium.com/) or your personal blog.
 
-Biz birlikdə YukkiMusicBot-u **daha yaxşı** edə bilərik!
+PS: You can buy me a coffee too :)
+<p><a href="https://www.buymeacoffee.com/notreallysy" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 35px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a></p>
 
-## ✍🏻 Töhfə
+Together, we can make YukkiMusicBot **better**!
 
-Əvvəlcə, töhfə vermək üçün vaxt ayırdığınız üçün təşəkkür edirik! Töhfələr açıq mənbə icmasını öyrənmək, ruhlandırmaq və yaratmaq üçün heyrətamiz bir yerə çevirən şeydir. Etdiyiniz hər hansı töhfə hamıya fayda verəcək və **çox təqdirəlayiqdir**.
+## ✍🏻 Contributing
 
-Lütfən, [töhfə təlimatlarımızı](CONTRIBUTING.md) oxuyun və iştirak etdiyiniz üçün təşəkkür edirik!
+First off, thanks for taking the time to contribute! Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make will benefit everybody else and are **greatly appreciated**.
 
-## 👨🏻‍💻 Müəlliflər və töhfə verənlər
+Please read [our contribution guidelines](CONTRIBUTING.md), and thank you for being involved!
 
-Bu deponun orijinal quraşdırılması [Dejavu](https://t.me/DejavuSupport) tərəfindəndir.
+## 👨🏻‍💻 Authors & contributors
 
-Bütün müəlliflərin və töhfə verənlərin tam siyahısı üçün [əməkdaşlar səhifəsinə](https://github.com/TeamYukki/YukkiMusicBot/contributors) baxın.
+The original setup of this repository is by [Team Yukki](https://github.com/TeamYukki).
 
-## ⚠️ Təhlükəsizlik
+For a full list of all authors and contributors, see [the contributors page](https://github.com/TeamYukki/YukkiMusicBot/contributors).
 
-YukkiMusicBot yaxşı təhlükəsizlik təcrübələrini izləyir, lakin 100% təhlükəsizlik təmin edilə bilməz. YukkiMusicBot heç bir **zəmanət** olmadan **"olduğu kimi"** təmin edilir. Öz riskinizlə istifadə edin.
+## ⚠️ Security
 
-Ətraflı məlumat və təhlükəsizlik problemlərini bildirmək üçün [`SECURITY.md`](SECURITY.md) ünvanımıza müraciət edin.
+YukkiMusicBot follows good practices of security, but 100% security cannot be assured. YukkiMusicBot is provided **"as is"** without any **warranty**. Use at your own risk.
+
+For more information and to report security issues, please refer to our [`SECURITY.md`](SECURITY.md)
 
 
-## 🗂 Lisenziya
+## 🗂 License
 
-Bu layihə **GNU General Public License v3** əsasında lisenziyalaşdırılıb. Bütün dizaynlar [ MUCVE ](https://t.me/MUCVE_M) tərəfindən yaradılmışdır.
+This project is licensed under the **GNU General Public License v3**. All designs were created by [@NotReallyShikhar](https://github.com/NotReallyShikhar) .
 
-Ətraflı məlumat üçün [LICENSE](../LICENSE) baxın.
+See [LICENSE](../LICENSE) for more information.
 
-## 📑 Təşəkkür
+## 📑 Acknowledgement
 
-Yukki Music Bot-u gücləndirməyə kömək edən bu heyrətamiz layihələrə/insanlara xüsusi təşəkkürlər:
+Special thanks to these amazing projects/people which/who help power Yukki Music Bot:
 
-- [Pirogram](https://github.com/pyrogram/pyrogram)
+- [Pyrogram](https://github.com/pyrogram/pyrogram)
 - [Py-Tgcalls](https://github.com/pytgcalls/pytgcalls)
 - [CallsMusic Team](https://github.com/Callsmusic)
 - [TheHamkerCat](https://github.com/TheHamkerCat)
-- [Charon Links](https://github.com/XCBv021)
+- [Charon Baglari](https://github.com/XCBv021)
 
 
-Xatırla ki, sən böyüksən, kifayətsən, varlığın qiymətlidir. Psixi sağlamlığınızla mübarizə aparırsınızsa, lütfən, sevdiyiniz biri ilə əlaqə saxlayın və bir mütəxəssislə məsləhətləşin.
+Reminder that you are great, you are enough, and your presence is valued. If you are struggling with your mental health, please reach out to someone you love and consult a professional.
