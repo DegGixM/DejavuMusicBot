@@ -1,7 +1,7 @@
 {
-    "name": "Yukki Music Bot",
-    "description": "Telegram Group Calls streaming bot with some useful features, written in Python with Pyrogram and Py-Tgcalls. Supporting platforms like Youtube, Spotify, Resso, AppleMusic, Soundcloud and M3u8 Links.",
-    "logo": "https://telegra.ph/file/c0e014ff34f34d1056627.png",
+    "name": "Dejavu Music Bot",
+    "description": "Pyrogram və Py-Tgcalls ilə Python dilində yazılmış bəzi faydalı xüsusiyyətləri olan Telegram Group Calls axın botu. Youtube, Spotify, Resso, AppleMusic, Soundcloud və M3u8 Links kimi platformaları dəstəkləyir.",
+    "logo": "https://te.legra.ph/file/be559ace3fe2b387dec9a.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -14,67 +14,67 @@
     "stack": "container",
     "env": {
       "API_ID": {
-        "description": "Get this value from https://my.telegram.org",
+        "description": "Bu dəyəri https://my.telegram.org saytından əldə edin,
         "value": "",
         "required": true
       },
       "API_HASH": {
-        "description": "Get this value from https://my.telegram.org",
+        "description": "Bu dəyəri https://my.telegram.org saytından əldə edin,
         "value": "",
         "required": true
       },
       "AUTO_LEAVING_ASSISTANT": {
-        "description": "If you want your assistant to leave all chats automatically after some time.",
+        "description": "Bir müddət sonra köməkçinizin bütün söhbətləri avtomatik tərk etməsini istəyirsinizsə."
         "value": "True",
         "required": true
       },
       "BOT_TOKEN": {
-        "description": "A Bot's token from Botfather",
+        "description": "Botfather'dan Botun əlaməti",
         "value": "",
         "required": true
       },
       "MONGO_DB_URI": {
-        "description": "Get a mongodb url from https://cloud.mongodb.com . You can leave it blank if you want , bot will use Yukki's database for you.",
+        "description": "Https://cloud.mongodb.com saytından mongodb url əldə edin. İstəsəniz, onu boş qoya bilərsiniz, bot sizin üçün Yukki verilənlər bazasından istifadə edəcək.",
         "value": "",
         "required": false
       },
       "MUSIC_BOT_NAME": {
-        "description": "A name for your Music Bot. Please don't use ascii characters",
+        "description": "Musiqi Botunuz üçün ad. Zəhmət olmasa ascii simvollarından istifadə etməyin",
         "value": "",
         "required": true
       },
       "OWNER_ID": {
-        "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
+        "description": "SAHİB olaraq əlavə etmək istədiyiniz istifadəçi(lər)in istifadəçi id(ləri). Çoxsaylı dəyərlər boşluqla ayrılmalıdır.",
         "value": "",
         "required": true
       },
       "STRING_SESSION": {
-        "description": "A Pyrogram String Session. One Assistant is Compulsory.",
+        "description": "Piroqramma simli seansı. Bir köməkçi məcburidir.",
         "value": "",
         "required": true
       },
       "HEROKU_API_KEY": {
-        "description": "Your Heroku account's API key",
+        "description": "Heroku hesabınızın API açarı",
         "value": "",
         "required": false
       },
       "HEROKU_APP_NAME": {
-        "description": "Your heroku app/bot's name",
+        "description": "Heroku tətbiqinizin/botunuzun adı",
         "value": "",
         "required": false
       },
       "LOG_GROUP_ID": {
-        "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Use only Group. Please don't use Channel ID.",
+        "description": "Giriş Qrupu ID-niz, botunuzu əlavə edin və tam hüquqlara malik admin kimi təbliğ edin!. Yalnız Qrupdan istifadə edin. Lütfən, Kanal ID-sindən istifadə etməyin.",
         "value": "",
         "required": true
       },
       "UPSTREAM_REPO": {
-        "description": "If you dont know this, Leave as it is",
+        "description": "Bunu bilmirsənsə, olduğu kimi burax",
         "value": "https://github.com/TeamYukki/YukkiMusicBot",
         "required": true
       },
       "UPSTREAM_BRANCH": {
-        "description": "Upstream Repo's Branch Name",
+        "description": "Upstream Repo filialının adı",
         "value": "master",
         "required": true
       }
