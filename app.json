@@ -14,12 +14,12 @@
     "stack": "container",
     "env": {
       "API_ID": {
-        "description": "Bu dəyəri https://my.telegram.org saytından əldə edin,
+        "description": "Bu dəyəri https://my.telegram.org saytından əldə edin",
         "value": "",
         "required": true
       },
       "API_HASH": {
-        "description": "Bu dəyəri https://my.telegram.org saytından əldə edin,
+        "description": "Bu dəyəri https://my.telegram.org saytından əldə edin",
         "value": "",
         "required": true
       },
