@@ -32,7 +32,7 @@ Dejavu Music Bot-u gücləndirən texnologiyalar haqqında ətraflı məlumat ü
 
 > Əgər siz Yukki Music Bot ilə işləməyə başlamaq istəyirsinizsə, repo yükləyə və ya idxal edə bilərsiniz.
 > Rəsmi [sənəd saytı](https://te.legra.ph/file/be559ace3fe2b387dec9a.jpg) çoxlu məlumat ehtiva edir. Başlamaq üçün ən yaxşı yer yerləşdirmə bölməsindəndir.
-> Bizimlə danışmaq istəyirsinizsə, [Telegram Qrupumuzda] bizə qoşulun (https://t.me/DejavuGurup)
+> Bizimlə danışmaq istəyirsinizsə, [Telegram Qrupumuzda](https://t.me/DejavuGurup) bizə qoşulun
 
 
 ## 🖇 İlkin şərtlər
@@ -48,9 +48,9 @@ Dejavu Music Bot-u gücləndirən texnologiyalar haqqında ətraflı məlumat ü
 
 ## 🖇 Piroqqramma sim seansının yaradılması
 
-- [Replit] (https://replit.com/@NotReallyShikhar/Yukki-Music-String-Gen) vasitəsilə Piroqram Simli Sessiya yaradın
+- [Replit](https://replit.com/@NotReallyShikhar/Yukki-Music-String-Gen) vasitəsilə Piroqram Simli Sessiya yaradın
 
-- [Telegram String Generation Bot] (https://t.me/YukkiStringBot) vasitəsilə Piroqram Simli Sessiya yaradın
+- [Telegram String Generation Bot](https://t.me/YukkiStringBot) vasitəsilə Piroqram Simli Sessiya yaradın
 
 
 ## 🚀 Heroku Yerləşdirmə
