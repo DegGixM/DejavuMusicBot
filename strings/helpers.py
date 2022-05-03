@@ -7,104 +7,102 @@
 #
 # All rights reserved.
 
-HELP_1 = """✅**<u>Yönetici Komutları:</u>**
+HELP_1 = """ ✅**<u>Admin Əmrləri:</u>**
 
-**c** stands for channel play.
+**c** kanal oyunu deməkdir.
 
-/pause ve ya /cpause - Çalan müziği duraklatın.
-/resume ve ya /cresume- Duraklatılan müziği devam ettirin.
-/mute ve ya /cmute- Çalan müziğin sesini kapatın.
-/unmute ve ya /cunmute- Sessize alınan müziğin sesini açın.
-/skip ve ya /cskip- Çalmakta olan müziği atla.
-/stop ve ya /cstop- Çalan müziği durdurun.
-/shuffle ve ya /cshuffle- Sıraya alınmış çalma listesini rastgele karıştırır.
-/seek ve ya /cseek - İleri Müziği sürenize göre arayın.
-/seekback ve ya /cseekback - Geriye Müziği sürenize göre arayın.
-/restart - Sohbetiniz için botu yeniden başlatın.
+/pause və ya /cpause - Musiqinin ifasına fasilə verin.
+/resume və ya /cresume - Pauza edilmiş musiqini davam etdirin.
+/muse və ya /cmute - Musiqinin səsini söndürün.
+/unmute və ya /cunmute - Səssiz musiqinin səsini açın.
+/skip və ya /cskip- Hazırda ifa olunan musiqini keçin.
+/stop və ya /cstop- Musiqinin ifasını dayandırın.
+/shuffle və ya /cshuffle- Növbəyə qoyulmuş pleylistləri təsadüfi qarışdırır.
+/seek və ya /cseek - Sonrakı Musiqini müddətə görə axtarın.
+/seekback və ya /cseekback - Müddəti ilə musiqini axtarın.
+/yenidən başladın - Söhbətiniz üçün botu yenidən başladın.
 
 
-✅<u>**Spesifik Atlama:**</u>
-/skip or /cskip [Sayı(örnek: 3)]
-    - Müziği belirtilen sıraya alınmış numaraya atlar. Örnek: /skip 3, müziği sıraya alınan üçüncü müziğe atlar ve sıradaki 1 ve 2 müziği yok sayar.
+✅<u>**Xüsusi Atlama:**</u>
+/skip və ya /cskip [Nömrə(misal: 3)]
+    - Musiqini göstərilən növbəli nömrəyə keçir. Nümunə: /skip 3 musiqini üçüncü növbəli musiqiyə keçir və növbəti 1 və 2 musiqiyə məhəl qoymur.
 
-✅<u>**Döngü Oynat:**</u>
-/loop or /cloop [etkin/devre dışı] veya [1-10 arası sayılar]
-    - Etkinleştirildiğinde, bot sesli sohbette çalmakta olan müziği 1-10 kez döngüye alır. Varsayılan olarak 10 kez.
+✅<u>**Loop Play:**</u>
+/loop və ya /clop [enable/disable] və ya [nömrə 1-10]
+    - Aktivləşdirildikdə, bot səsli çatda səsləndirilən musiqini 1-10 dəfə çevirəcək. Varsayılan olaraq 10 dəfə.
     
-✅<u>**Auth Users:**</u>
-Auth Users can use admin commands without admin rights in your chat.
+✅<u>**Auth İstifadəçiləri:**</u>
+Auth İstifadəçiləri söhbətinizdə admin hüquqları olmadan admin əmrlərindən istifadə edə bilərlər.
 
-/auth [Username] - Add a user to AUTH LIST of the group.
-/unauth [Username] - Remove a user from AUTH LIST of the group.
-/authusers - Check AUTH LIST of the group."""
-
-
-HELP_2 = """✅<u>**Play Commands:**</u>
-
-Available Commands = play , vplay , cplay
-
-ForcePlay Commands = playforce , vplayforce , cplayforce
-
-**c** stands for channel play.
-**v** stands for video play.
-**force** stands for force play.
-
-/play or /vplay or /cplay  - Bot will start playing your given query on voice chat or Stream live links on voice chats.
-
-/playforce or /vplayforce or /cplayforce -  **Force Play** stops the current playing track on voice chat and starts playing the searched track instantly without disturbing/clearing queue.
-
-/channelplay [Chat username or id] or [Disable] - Connect channel to a group and stream music on channel's voice chat from your group.
+/auth [İstifadəçi adı] - Qrupun AUTH SİYAHISINA istifadəçi əlavə edin.
+/unauth [İstifadəçi adı] - Qrupun AUTH LIST-dən istifadəçini çıxarın.
+/authusers - Qrupun AUTH SİYAHISINI yoxlayın."""
 
 
-✅**<u>Bot's Server Playlists:</u>**
-/playlist  - Check Your Saved Playlist On Servers.
-/deleteplaylist - Delete any saved music in your playlist
-/play  - Start playing Your Saved Playlist from Servers."""
+HELP_2 = """✅<u>**Oynatma Əmrləri:**</u>
+
+Mövcud Əmrlər = play , vplay , cplay
+
+ForcePlay Əmrləri = playforce , vplayforce , cplayforce
+
+**c** kanal oyunu deməkdir.
+**v** video oynatma deməkdir.
+**force** güc oyunu deməkdir.
+
+/play və ya /vplay və ya /cplay - Bot verdiyiniz sorğunu səsli söhbətdə oynatmağa və ya səsli söhbətlərdə canlı bağlantıları yayımlamağa başlayacaq.
+
+/playforce və ya /vplayforce və ya /cplayforce - **Force Play** səsli çatda cari ifa olunan treki dayandırır və növbəni pozmadan/təmizləmədən axtarılan treki dərhal ifa etməyə başlayır.
+
+/channelplay [Söhbət istifadəçi adı və ya id] və ya [Disable] - Kanalı qrupa qoşun və qrupunuzdan kanalın səsli söhbətində musiqi yayımlayın.
 
 
-HELP_3 = """✅<u>**Bot Commands:**</u>
+✅**<u>Botun Server Pleylistləri:</u>**
+/playlist - Serverlərdə Saxlanmış Pleylistinizi yoxlayın.
+/deleteplaylist - Pleylistinizdə saxlanan hər hansı musiqini silin
+/play - Serverlərdən Saxlanmış Pleylistinizi oynatmağa başlayın."""
 
-/stats - Get Top 10 Tracks Global Stats, Top 10 Users of bot, Top 10 Chats on bot, Top 10 Played in a chat etc etc.
+HELP_3 = """✅<u>**Bot Əmrləri:**</u>
 
-/sudolist - Check Sudo Users of Yukki Music Bot
+/stats - Top 10 Track Global Stats, Top 10 Bot Users, Top 10 Chats on the bot, Top 10 Played in Chat and s.
 
-/lyrics [Music Name] - Searches Lyrics for the particular Music on web.
+/sudolist - Yukki Musiqi Botunun Sudo İstifadəçilərini yoxlayın
 
-/song [Track Name] or [YT Link] - Download any track from youtube in mp3 or mp4 formats.
+/lyrics [Musiqi Adı] - Vebdə xüsusi Musiqi üçün Lirikləri axtarır.
 
-/player -  Get a interactive Playing Panel.
+/song [Track Adi] və ya [YT Link] - YouTube-dan mp3 və ya mp4 formatında istənilən treki yükləyin.
 
-**c** stands for channel play.
+/player - İnteraktiv Oyun Paneli əldə edin.
 
-/queue or /cqueue- Check Queue List of Music."""
+**c** kanal oyunu deməkdir.
 
-HELP_4 = """✅<u>**Extra  Commands:**</u>
-/start - Start the Music Bot.
-/help  - Get Commands Helper Menu with detailed explanations of commands.
-/ping- Ping the Bot and check Ram, Cpu etc stats of Bot.
+/queue və ya /cqueue- Musiqinin Növbə Siyahısını yoxlayın."""
 
-✅<u>**Group Settings:**</u>
-/settings - Get a complete group's settings with inline buttons
+HELP_4 = """✅<u>**Əlavə Əmrlər:**</u>
+/start - Musiqi Botunu işə salın.
+/ help - Əmrlərin ətraflı izahı ilə Əmrlər Köməkçisi Menyusunu əldə edin.
+/ping- Botu pingləyin və Botun Ram, CPU və s. statistikasını yoxlayın.
 
-🔗 **Options in Settings:**
+✅<u>**Qrup Parametrləri:**</u>
+/settings - Daxili düymələrlə tam qrup parametrlərini əldə edin.
 
-1️⃣ You can set **Audio Quality** you want to stream on voice chat.
+🔗 **Parametrlərdəki seçimlər:**
 
-2️⃣ You can set **Video Quality** you want to stream on voice chat.
+1️⃣ Siz səsli söhbətdə yayımlamaq istədiyiniz **Audio Keyfiyyətini** təyin edə bilərsiniz.
 
-3️⃣ **Auth Users**:- You can change admin commands mode from here to everyone or admins only. If everyone, anyone present in you group will be able to use admin commands(like /skip, /stop etc)
+2️⃣ Siz səsli söhbətdə yayımlamaq istədiyiniz **Video Keyfiyyətini** təyin edə bilərsiniz.
 
-4️⃣ **Clean Mode:** When enabled deletes the bot's messages after 5 mins from your group to make sure your chat remains clean and good.
+3️⃣ **Auth Users**:- Admin əmrləri rejimini buradan hamıya və ya yalnız adminlərə dəyişə bilərsiniz. Əgər hər kəs, sizin qrupunuzda olan hər kəs admin əmrlərindən istifadə edə biləcək (məsələn, /skip, /stop və s.)
 
-5️⃣ **Command Clean** : When activated, Bot will delete its executed commands (/play, /pause, /shuffle, /stop etc) immediately.
+4️⃣ **Təmiz rejimi:** Söhbətinizin təmiz və yaxşı qaldığından əmin olmaq üçün aktivləşdirildikdə botun mesajlarını 5 dəqiqədən sonra qrupunuzdan silir.
+5️⃣**Təmizləmə əmri**: Aktivləşdirildikdə, Bot yerinə yetirilən əmrləri siləcək (/play, /pause, /shuffle, /stop və s.)dərhal.
 
-6️⃣ **Play Settings:**
+6️⃣ **Play Parametrləri:**
 
-/playmode - Get a complete play settings panel with buttons where you can set your group's play settings. 
+/playmode - Qrupunuzun oyun parametrlərini təyin edə biləcəyiniz düymələri olan tam ifa parametrləri paneli əldə edin.
 
-<u>Options in playmode:</u>
+<u>Oyun rejimində seçimlər:</u>
 
-1️⃣ **Search Mode** [Direct or Inline] - Changes your search mode while you give /play mode. 
+1️⃣ **Axtarış Modu** [Birbaşa və ya Daxil] - Siz /play i verərkən axtarış rejiminizi dəyişir.
 
 2️⃣ **Admin Əmrləri** [Hər kəs və ya Adminlər] - Əgər hər kəs, qrupunuzda olan hər kəs admin əmrlərindən istifadə edə biləcək (məsələn, /skip, /stop və s.)
 
