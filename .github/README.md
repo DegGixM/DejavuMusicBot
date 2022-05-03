@@ -84,7 +84,7 @@ shikhar@MacBook~ $ sudo bash setup
 shikhar@MacBook~ $ bash start
 ```
 
-> VPS Metodunu Almırsınız? [Təlimçiliyə baxın](https://t.me/TheYukki/2275)
+> VPS Metodunu Almırsınız? [Təlimçiliyə baxın](https://t.me/DejavuSupport)
 
 
 <img src="https://telegra.ph/file/6b75b57da50ef1183fcdc.jpg" align="center">
@@ -94,7 +94,7 @@ shikhar@MacBook~ $ bash start
 Aşağıdakı yerlərdən birində baxıcı ilə əlaqə saxlayın:
 
 - [GitHub Problemləri](https://github.com/TeamYukki/yukkimusicbot/issues/new?assignees=&labels=question&template=SUPPORT_QUESTION.md&title=support%3A+)
-- [bu GitHub profilində] sadalanan əlaqə seçimləri (https://github.com/TeamYukki)
+- [bu GitHub profilində] sadalanan əlaqə seçimləri(https://github.com/TeamYukki)
 - [Telegram Dəstəyi](https://t.me/DejavuSupport)
 
 ## 🎗 Layihəyə yardım
@@ -118,7 +118,7 @@ Lütfən, [töhfə təlimatlarımızı](CONTRIBUTING.md) oxuyun və iştirak etd
 
 ## 👨🏻‍💻 Müəlliflər və töhfə verənlər
 
-Bu deponun orijinal quraşdırılması [ Dejavu ] (https://t.me/DejavuSupport) tərəfindəndir.
+Bu deponun orijinal quraşdırılması [Dejavu](https://t.me/DejavuSupport) tərəfindəndir.
 
 Bütün müəlliflərin və töhfə verənlərin tam siyahısı üçün [əməkdaşlar səhifəsinə](https://github.com/TeamYukki/YukkiMusicBot/contributors) baxın.
 
